@@ -2,7 +2,7 @@ let time_text = ""
 let hour_12 = 0
 let minute_text = ""
 esp8266.init(SerialPin.P16, SerialPin.P15, BaudRate.BaudRate115200)
-esp8266.connectWiFi("MyWiFi", "mywifi1234")
+esp8266.connectWiFi("HCDE GUEST", "hcdeguest")
 if (esp8266.isWifiConnected()) {
     basic.showIcon(IconNames.Yes)
 } else {
